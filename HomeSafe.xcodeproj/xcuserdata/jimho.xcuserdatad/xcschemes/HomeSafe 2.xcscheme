@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1D1CF141EA124B100CB9B81"
-            BuildableName = "CoreLocationStarterKit.app"
-            BlueprintName = "CoreLocationStarterKit"
-            ReferencedContainer = "container:CoreLocationStarterKit.xcodeproj">
+            BuildableName = "HomeSafe.app"
+            BlueprintName = "HomeSafe"
+            ReferencedContainer = "container:HomeSafe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -51,6 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F1D1CF141EA124B100CB9B81"
+            BuildableName = "HomeSafe.app"
+            BlueprintName = "HomeSafe"
+            ReferencedContainer = "container:HomeSafe.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F1D1CF141EA124B100CB9B81"
+            BuildableName = "HomeSafe.app"
+            BlueprintName = "HomeSafe"
+            ReferencedContainer = "container:HomeSafe.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

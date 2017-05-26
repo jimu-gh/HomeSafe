@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  CoreLocationStarterKit
+//  HomeSafe
 //
-//  Created by Andy Feng on 4/14/17.
-//  Copyright © 2017 Andy Feng. All rights reserved.
+//  Created by Jim Ho on 4/14/17.
+//  Copyright © 2017 Jim Ho. All rights reserved.
 //
 
 import UIKit
@@ -43,4 +43,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

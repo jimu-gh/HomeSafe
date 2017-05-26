@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BEC3C0B1ED88E09008908CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEC3C0A1ED88E09008908CB /* Default-568h@2x.png */; };
 		F1162B111EA133DA00D1CCAA /* cp2.2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F1162B101EA133DA00D1CCAA /* cp2.2.gpx */; };
 		F1D1CF191EA124B100CB9B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1CF181EA124B100CB9B81 /* AppDelegate.swift */; };
 		F1D1CF1B1EA124B100CB9B81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1CF1A1EA124B100CB9B81 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BEC3C0A1ED88E09008908CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F1162B101EA133DA00D1CCAA /* cp2.2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = cp2.2.gpx; path = HomeSafe/cp2.2.gpx; sourceTree = "<group>"; };
 		F1D1CF151EA124B100CB9B81 /* HomeSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1CF181EA124B100CB9B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		F1D1CF0C1EA124B100CB9B81 = {
 			isa = PBXGroup;
 			children = (
+				5BEC3C0A1ED88E09008908CB /* Default-568h@2x.png */,
 				F1162B101EA133DA00D1CCAA /* cp2.2.gpx */,
 				F1D1CF171EA124B100CB9B81 /* HomeSafe */,
 				F1D1CF161EA124B100CB9B81 /* Products */,
@@ -64,8 +67,7 @@
 				F1D1CF211EA124B100CB9B81 /* LaunchScreen.storyboard */,
 				F1D1CF241EA124B100CB9B81 /* Info.plist */,
 			);
-			name = HomeSafe;
-			path = CoreLocationStarterKit;
+			path = HomeSafe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +86,7 @@
 			dependencies = (
 			);
 			name = HomeSafe;
-			productName = CoreLocationStarterKit;
+			productName = HomeSafe;
 			productReference = F1D1CF151EA124B100CB9B81 /* HomeSafe.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -96,7 +98,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Andy Feng";
+				ORGANIZATIONNAME = "Jim Ho";
 				TargetAttributes = {
 					F1D1CF141EA124B100CB9B81 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -131,6 +133,7 @@
 				F1D1CF231EA124B100CB9B81 /* LaunchScreen.storyboard in Resources */,
 				F1D1CF201EA124B100CB9B81 /* Assets.xcassets in Resources */,
 				F1D1CF1E1EA124B100CB9B81 /* Main.storyboard in Resources */,
+				5BEC3C0B1ED88E09008908CB /* Default-568h@2x.png in Resources */,
 				F1162B111EA133DA00D1CCAA /* cp2.2.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = VX3B54F7HS;
-				INFOPLIST_FILE = CoreLocationStarterKit/Info.plist;
+				INFOPLIST_FILE = HomeSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hojim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = VX3B54F7HS;
-				INFOPLIST_FILE = CoreLocationStarterKit/Info.plist;
+				INFOPLIST_FILE = HomeSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hojim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
